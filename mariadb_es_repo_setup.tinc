@@ -1,0 +1,58 @@
+.. Copyright (C) 2019 - 2024 MariaDB plc. All rights reserved.
+
+.. DO NOT EDIT THIS AUTO-GENERATED FILE! A `make ref` generates this data!
+
+.. doc-fix:: skip
+
+.. list-table::
+   :widths: auto
+   :header-rows: 1
+
+   * - Option
+     - Description
+   * - «slug»«repo/cli/mariadb_es_repo_setup/apply»
+     - Write OS's repository configuration files. This will also import GPG keys and update the package cache on platforms where that behavior exists.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/arch»
+     - Override detection of CPU architecture. Acceptable values are 'x86_64', 'aarch64', 'amd64', & 'arm64'.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/help»
+     - Display this help and exit.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/include-unsupported»
+     - Include the 'Unsupported' repository.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/mariadb-enterprise-tools-version»
+     - Override the default MariaDB Enterprise Tools version. By default, the script will use 'latest'.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/mariadb-maxscale-version»
+     - Override the default MariaDB MaxScale version. By default, the script will use 'latest'.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/mariadb-server-version»
+     - Override the default MariaDB Server version. By default, the script will use '10.6'.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/os-type»
+     - Override detection of OS type. Acceptable values include 'debian', 'ubuntu', 'rhel', and 'sles'.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/os-version»
+     - Override detection of OS version. Acceptable values depend on the OS type you specify.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-check-installed»
+     - Skip tests for required prerequisites.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-enterprise-tools»
+     - Skip the 'Enterprise Tools' repository
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-eol-check»
+     - Skip tests for MariaDB ES versions being past their EOL date
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-key-import»
+     - Skip importing GPG signing keys.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-maxscale»
+     - Skip the 'MaxScale' repository.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-os-eol-check»
+     - Skip tests for operating system versions being past EOL date
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-server»
+     - Skip the 'MariaDB Enterprise Server' repository.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-tools»
+     - Skip the 'Tools' repository.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-verify»
+     - Skip verification of MariaDB Server versions. Use with caution as this can lead to an invalid repository configuration file being created.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/skip-xpand»
+     - Skip the 'Xpand' instructions. RHEL/CentOS 7 only.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/token»
+     - Your Customer Download Token (required).  Use the «ext-uri»«https://cloud.mariadb.com/csm?id=my_customer_token»«MariaDB Customer Portal» to find your token.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/verbose»
+     - Display \[info\] messages.
+   * - «slug»«repo/cli/mariadb_es_repo_setup/version»
+     - Output the script version and exit.
+
+.. vim: ft=rst

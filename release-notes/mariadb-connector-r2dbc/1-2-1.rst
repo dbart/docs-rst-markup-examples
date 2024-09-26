@@ -1,0 +1,27 @@
+.. Copyright (C) 2024 MariaDB plc. All rights reserved.
+   ID: 9CXF01D6QD1MWVD
+
+.. page::
+   :silos: columnstore, server, xpand
+
+.. eval::
+
+   rel = Namespace(
+      prod_abbr = "conr2db",
+      ver = "1.2.1",
+      date = "2024-06-24",
+      maturity = "GA",
+      )
+
+.. The following include adds a meta:: :description: text, adds the slug,
+   adds the H1 heading, and adds various <%FOO%> variables:
+
+.. include:: ~/rn-h1.inc
+
+MariaDB Connector/R2DBC is a non-blocking interface between Java applications and MariaDB Server.  MariaDB Connector/R2DBC enables the development of Java 8+ applications for MariaDB database products.
+
+<%PROD_VER_DATE%> This release is of GA (generally available) maturity. It is compatible with MariaDB Connector/R2DBC 1.1 and is the maintenance path for version 1.1.  This release is compatible with «ext-uri»«https://r2dbc.io/spec/1.0.0.RELEASE/spec/html/»«R2DBC 1.0.0» specification.
+
+<%RELNOTES%>
+
+.. include:: ../connector-includes/r2dbc-release-notes-tail-links.inc
